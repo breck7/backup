@@ -1,0 +1,19 @@
+{
+  "name": "backup",
+  "version": "0.1.11",
+  "description": "Quickly backup a directory to s3.",
+  "repository": "git://github.com/breck7/backup",
+  "main": "backup.js",
+  "dependencies": {
+    "aws-sdk" : ">=0.9.0",
+    "commander": "1.1.1"
+  },
+  "bin" : { "backup" : "./backup.js" },
+  "keywords": [
+    "backup",
+    "s3",
+    "chron"
+  ],
+  "license": "MIT",
+  "author": "Breck Yunits"
+}
