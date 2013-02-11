@@ -1,6 +1,6 @@
 {
   "name": "backup",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Quickly backup a directory to s3.",
   "repository": "git://github.com/breck7/backup",
   "main": "backup.js",

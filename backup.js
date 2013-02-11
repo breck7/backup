@@ -50,7 +50,7 @@ function backupDir (dir) {
   // backupName is directory_at_10.20.2012_10.51.23am.zip
   var backupName = path.basename(dir) + '_at_' +
     (now.getMonth() + 1) + '.' +
-    (now.getDay() + 1) + '.' +
+    (now.getDate()) + '.' +
     (now.getFullYear()) + '_' +
     (hours) + '.' +
     (now.getMinutes()) + '.' +
